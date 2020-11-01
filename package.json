@@ -1,0 +1,24 @@
+{
+  "name": "pastabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantysalo/pastabot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mantysalo/pastabot/issues"
+  },
+  "homepage": "https://github.com/mantysalo/pastabot#readme",
+  "devDependencies": {
+    "@vercel/node": "^1.8.4",
+    "typescript": "^4.0.5",
+    "vercel": "^20.1.2"
+  }
+}
