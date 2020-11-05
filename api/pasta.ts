@@ -10,7 +10,17 @@ const isValidPasta = (availablePastas: {[key:string]: string}, pasta: string): p
 export default (request: NowRequest, response: NowResponse) => {
   const { text: pasta } = request.query
   if (isValidQuery(pasta) && isValidPasta(pastat, pasta)) {
-    return response.status(200).send(pastat[pasta])
+    return response.status(200).send({
+      "blocks": [
+        {
+          "type": "section",
+          "text": {
+            "type": "plain_text",
+            "text": pastat[pasta]
+          }
+        }
+      ]
+    })
   }
   return response.status(200).send(`Couldn't find that pasta. Please use one of the following: ${Object.keys(pastat).join(', ')}`)
 }
