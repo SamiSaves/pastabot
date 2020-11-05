@@ -33,7 +33,7 @@ Miuuuuu, mut voiha peeteleen peetele ku mä hyppäsi ton tiskipöydäl nii siel 
 Miuuuuuu, kyl siit sit paineli vikkelää ton sänkky al ja iha kaamee homma oli laittaa karvat kunttoo taas.
 Miuuuuuuu, ja sit mami tiputti jottai ja tul iha kaamee ään ja taas mä sain kipittää sänkky al, pöh ja pöh.
 Miuuuuuu, no huh huh mut ny me ootetaa sitä tanttii juttuu.
-Miuuuuuu, ja täs kuvas mä oon eile valot pääl, hih hii`
+Miuuuuuu, ja täs kuvas mä oon eile valot pääl, hih hii`,
     sadettaja: `>ole kolmosluokka & koulujuhla
 >vitunmoinen paskahätä koska mahatauti
 >kaikki istuvat salin lattialla
