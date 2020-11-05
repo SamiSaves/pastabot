@@ -33,5 +33,28 @@ Miuuuuu, mut voiha peeteleen peetele ku mä hyppäsi ton tiskipöydäl nii siel 
 Miuuuuuu, kyl siit sit paineli vikkelää ton sänkky al ja iha kaamee homma oli laittaa karvat kunttoo taas.
 Miuuuuuuu, ja sit mami tiputti jottai ja tul iha kaamee ään ja taas mä sain kipittää sänkky al, pöh ja pöh.
 Miuuuuuu, no huh huh mut ny me ootetaa sitä tanttii juttuu.
-Miuuuuuu, ja täs kuvas mä oon eile valot pääl, hih hii`
+Miuuuuuu, ja täs kuvas mä oon eile valot pääl, hih hii`,
+    sadettaja: `>ole kolmosluokka & koulujuhla
+>vitunmoinen paskahätä koska mahatauti
+>kaikki istuvat salin lattialla
+>johonkin esitykseen kuuluu, että pelleksi tms pukeutunut tyyppi juoksee yleisöön ja alkaa nostelemaan lapsia ilmaan, pyöritellen heitä
+>vitunmoinen paskahätä, kylmä hiki nousee pintaan
+>ei alushousuja sortsien alla (ei lisätietoja)
+>se vitun pelle tulee nyt tuolta, esitä kuollutta
+> ole melkein kuollut muutenkin paskan pidättelyn takia
+>pelle tulee hetken kuluttua uudestaan lähistölle
+>en huomaa tätä
+>pelle tarttuu minuun, ja nostaa minut ilmaan
+>ei jumalauta
+>ei puhettakaan että perseeni lihakset enää kykenevät tähän haasteeseen
+>kun olen ilmassa pyöritettävänä, tunne kuinka raibaleet alkavat lentää sortsinlahkeista valtavalla paineella, tunne olosi kantoraketiksi
+>näe kuinka ripuli lentää lahkeistasi suoraan ympäristöön ja ihmisten päälle pyörittelyn voimasta
+>tilanne kestää n. 3 sekuntia
+>kuule pellepuvun sisältä kumea 'MITÄ VITTUA'
+>pelle pudottaa minut lattialle kuin pölkyn
+<pyörry
+>tule tajuihisi vain huomataksesi että perseestäsi tulee pörisevää pierua ja lisää paskaa täysin hiljaisessa ja täydessä liikuntasalissa
+>sortsien sisällä oleva verkkokangas toimii siivilänä, päästäen paskavedet valumaan vapaasti, kiinteämmän materiaalin harvestoituessa sortsien sisäosaan
+<pyörry taas
+>herää terkkarin vastaanotolta`
 }
