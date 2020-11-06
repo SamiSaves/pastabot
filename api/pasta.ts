@@ -1,26 +1,37 @@
-import { NowRequest, NowResponse } from '@vercel/node'
-import pastat from '../pastas'
+import { NowRequest, NowResponse } from "@vercel/node";
+import { promises as fs } from "fs";
 
-const isValidQuery = (query: string | string[]): query is string => typeof query === 'string'
-const isValidPasta = (availablePastas: {[key:string]: string}, pasta: string): pasta is keyof typeof pastat => {
-    const pastas = Object.keys(availablePastas)
-    return pastas.includes(pasta)
-}
+const isValidQuery = (query: string | string[]): query is string => typeof query === "string";
+const isValidPasta = (pastas: string[], pasta: string) => pastas.includes(pasta);
+const createSlackMessage = (pasta: string) => ({
+  blocks: [
+    {
+      type: "section",
+      text: {
+        type: "plain_text",
+        text: pasta,
+      },
+    },
+  ],
+});
 
-export default (request: NowRequest, response: NowResponse) => {
-  const { text: pasta } = request.query
-  if (isValidQuery(pasta) && isValidPasta(pastat, pasta)) {
-    return response.status(200).send({
-      "blocks": [
-        {
-          "type": "section",
-          "text": {
-            "type": "plain_text",
-            "text": pastat[pasta]
-          }
-        }
-      ]
-    })
+export default async (request: NowRequest, response: NowResponse) => {
+  const { text: pastaQuery } = request.query;
+  const pastas = (await fs.readdir(`${__dirname}/../pastas`)).map((fileName) => fileName.replace(/\.[^/.]+$/, ""));
+  if (isValidQuery(pastaQuery)) {
+    if (isValidPasta(pastas, pastaQuery)) {
+      try {
+        const pastaFile = await fs.readFile(`${__dirname}/../pastas/${pastaQuery}.txt`, { encoding: "utf-8" });
+        return response.status(200).send(createSlackMessage(pastaFile));
+      } catch (error) {
+        return response.status(500).send(error.message);
+      }
+    } else {
+      return response
+        .status(200)
+        .send(`Couldn't find that pasta. Please use one of the following: ${pastas.join(", ")}`);
+    }
+  } else {
   }
-  return response.status(200).send(`Couldn't find that pasta. Please use one of the following: ${Object.keys(pastat).join(', ')}`)
-}
+  response.status(400).send("Invalid query parameter. Allowed query parameters are: text");
+};
