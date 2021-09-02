@@ -1,5 +1,6 @@
 import { NowRequest, NowResponse } from "@vercel/node";
 import { promises as fs } from "fs";
+import got from "got/dist/source";
 
 const isValidQuery = (query: string | string[]): query is string => typeof query === "string";
 const isValidPasta = (pastas: string[], pasta: string) => pastas.includes(pasta);
@@ -22,7 +23,8 @@ export default async (request: NowRequest, response: NowResponse) => {
     if (isValidPasta(pastas, pastaQuery)) {
       try {
         const pastaFile = await fs.readFile(`${__dirname}/../pastas/${pastaQuery}.txt`, { encoding: "utf-8" });
-        return response.status(200).send(createSlackMessage(pastaFile));
+        await got((process.env.WEBHOOK_URL as string), {method: 'POST', body: JSON.stringify({pasta: pastaFile})})
+        return response.status(200)
       } catch (error) {
         return response.status(500).send(error.message);
       }
