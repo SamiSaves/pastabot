@@ -17,6 +17,7 @@ const createSlackMessage = (pasta: string) => ({
 });
 
 export default async (request: NowRequest, response: NowResponse) => {
+  return 'lmao'
   const { text: pastaQuery, user_name} = request.query;
   const pastas = (await fs.readdir(`${__dirname}/../pastas`)).map((fileName) => fileName.replace(/\.[^/.]+$/, ""));
   if (isValidQuery(pastaQuery)) {
