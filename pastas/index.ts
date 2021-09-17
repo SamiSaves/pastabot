@@ -22,16 +22,5 @@ export default {
     
     >puhelin soi <moi nyymi, joko sait kamas roudattua? >joo <no? >mitä? <eiks meillä ollu puhetta niistä laneista, sinä minä ja make? >ainiin joo, no käviskö ens viikonloppu? <juuh, okei <soittelen sit, moro >tässä kohti muistan vessapaperin >ei helvetti >ei saatana >ei jumalauta >muutama päivä aikaa  >käy siihen saakka päivittäin kaupassa, yhtenä päivänä jopa kaksi kertaa  >päättele, että n. 19:00 aikaan alkaa hiljeneä >tuomiopäivä >tule töistä vähän neljän jälkeen kotiin >pelaa dotaa sen minkä kerkeät pitääksesi mielesi pois asiasta >19:00 >lähde kauppaan, n. 20min matka kävellen (ei ole lähin kauppa) >kaupassa suhteellisen hiljaista, kassoja näytti olevan kaksi >ota ostoskori >täytä ostoskori kaikennäköisestä lanimätöstä >hillu sielä joku 15min "katselemassa mitä muuta ostaisi" >lopulta mene kotitalousosastolle >ota pieni 6 rullan pakkaus paskapaperia >kävelet nyt manuaalisesti kassalle >klassinen "kaksi vapaata kassaa" dilemma >toisessa istuu joku vanhempi rouva ja toisessa suunnilleen ikäiseni kassatyty >huokaise kevyesti helpotuksesta ja suuntaa kohti rouvan kassaa >asettele ensin mättö liukuhihnalle, sitten vessapaperi <voi teitä nuorukaisia... >syke nousee >tajua pienen hetken kuluttua, että hän kauhistelee mättöjäni <hei nuori mies, meiltä kuule löytyy nyt tätä peppupaperia alennuksestakin, samalla hinnalla saat kato 12 rullan peppupaperipakkauksen >hengittäminen muuttuu hankalaksi >saa juuri ja juuri sanottua edes jotain: "ai..." <hei tehdäänkö silleen et mä käyn hakemassa sulle sen, mä voin vinguttaa omaa plussakorttia jos sulla ei ole  >puhuminen edelleen vaikeaa >"..ei teidän..." <ei kun kato nyt on näin hiljasta, oota tässä vain pieni hetki niin säästät sinäkin katsos rahaa >ole paniikissa ja tajua, että sinun selän takanasi on edelleen se toinen kassatyty >huuda paniikissa "NE ON MUN ÄIDILLE!!!" >mitä vittua >juokse
     
-    Kavereilleni sanoin, että olen kipeänä. Ne tuli sitten "yllätysvisiitille" jokatapauksessa ja kun eivät uskoneet, niin piti sitten selittää lopulta mistä on kyse. Nyt ne ostaa minulle vessapaperini.`,
-    turkukissa: `Miuuuuuu, miuuuuuu kyl mä eile illal sit haisteli mamin tassui ku niis ol sen Roosan tuoksuu,
-Miuuuuuu, no me kyl illal sit viel pelattii jalkkist ja leikittii kanttiksen kans, hrrrr
-Miuuuuuu, yöl mä kipiti iha mamin kylkkee kii ja siin ja iha aamuu asti.
-Miuuuuuuu, ja kehruukoneenki mä laito iha täysil.
-Miuuuuuuu, ja voiha ihku ku ei mami ollu aamul minneskää kiirus ku me vaa olttii ja naatittii, hrrrr
-Miuuuuu, no tietty ny vähä jossai mami kävi mut äkkii tul takas.
-Miuuuuu, mut voiha peeteleen peetele ku mä hyppäsi ton tiskipöydäl nii siel oliki vettä ja pöh ja pöh ku mä kastuin,
-Miuuuuuu, kyl siit sit paineli vikkelää ton sänkky al ja iha kaamee homma oli laittaa karvat kunttoo taas.
-Miuuuuuuu, ja sit mami tiputti jottai ja tul iha kaamee ään ja taas mä sain kipittää sänkky al, pöh ja pöh.
-Miuuuuuu, no huh huh mut ny me ootetaa sitä tanttii juttuu.
-Miuuuuuu, ja täs kuvas mä oon eile valot pääl, hih hii`
+    Kavereilleni sanoin, että olen kipeänä. Ne tuli sitten "yllätysvisiitille" jokatapauksessa ja kun eivät uskoneet, niin piti sitten selittää lopulta mistä on kyse. Nyt ne ostaa minulle vessapaperini.`
 }
